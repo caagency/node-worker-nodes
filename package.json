@@ -40,7 +40,6 @@
   },
   "dependencies": {
     "msgpack-lite": "^0.1.26",
-    "node-ipc": "^9.1.0",
-    "xpipe": "^1.0.5"
+    "node-ipc": "^9.1.0"
   }
 }
