@@ -39,7 +39,6 @@
     "sinon": "^1.17.6"
   },
   "dependencies": {
-    "msgpack-lite": "^0.1.26",
     "node-ipc": "^9.1.0"
   }
 }
