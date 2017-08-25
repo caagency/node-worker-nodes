@@ -69,7 +69,6 @@ Describes a WorkerNodes options.
 
 * [WorkerNodesOptions](#WorkerNodesOptions)
     * [.autoStart](#WorkerNodesOptions+autoStart) : <code>Boolean</code>
-    * [.lazyStart](#WorkerNodesOptions+lazyStart) : <code>Boolean</code>
     * [.minWorkers](#WorkerNodesOptions+minWorkers) : <code>Number</code>
     * [.maxWorkers](#WorkerNodesOptions+maxWorkers) : <code>Number</code>
     * [.maxTasks](#WorkerNodesOptions+maxTasks) : <code>Number</code>
@@ -85,15 +84,7 @@ Describes a WorkerNodes options.
 ### options.autoStart : <code>Boolean</code>
 Whether should initialize the workers before a first call.
 
-If true, depending on the [lazyStart](#WorkerNodesOptions+lazyStart) option, it will start the
-[min](#WorkerNodesOptions+minWorkers) or [max](#WorkerNodesOptions+maxWorkers) number of workers.
-
-**Kind**: instance property of <code>[WorkerNodesOptions](#WorkerNodesOptions)</code>  
-**Default**: <code>false</code>  
-<a name="WorkerNodesOptions+lazyStart"></a>
-
-### options.lazyStart : <code>Boolean</code>
-Whether should start a new worker only if all the others are busy.
+If true, it will start the [max](#WorkerNodesOptions+maxWorkers) number of workers.
 
 **Kind**: instance property of <code>[WorkerNodesOptions](#WorkerNodesOptions)</code>  
 **Default**: <code>false</code>  
